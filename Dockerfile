@@ -1,10 +1,10 @@
 # Dockerfile to build aria2 Windows binary using ubuntu mingw-w64 cross compiler chain.
 #
-# $ docker build -t aria2-mingw - < Dockerfile.mingw
+# $ docker build -t aria2 - < Dockerfile
 #
 # After successful build, windows binary is located at /aria2/src/aria2c.exe. You can copy the binary using following commands:
 #
-# $ id=$(docker create aria2-mingw)
+# $ id=$(docker create aria2)
 # $ docker cp $id:/aria2/src/aria2c.exe .
 # $ docker rm -v $id
 
